@@ -1,0 +1,306 @@
+you are currently watching in neural network learn about your ago
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+functions are important they are important because functions
+describe the world
+everything is described by functions that's right
+functions describe function
+function different classes
+function high school secondary
+smooth vulnerable functions
+functions described the world
+yes correct
+be described with numbers and relationship
+Queen numbers we call those relationships functions and with functions
+understand model and predict the world around us
+artificial intelligence is to write programs that can also understand model
+so they must be able to build
+functions that is the point of function approximation and that is what normal
+their function building machines in this video I want to expand
+videos of my previous video by watching actual neural networks learn strange shapes
+very difficult challenges discovered
+quotations of normal networks and explore other methods for machine learning and mathematics to app
+please open problem now I am a program or mathematician and
+I kind of hate maths difficult in intermedi
+that's a bad attitude Because math is unavoidable useful and occasion
+I'll do my best to keep things simple and accurate for an audience like me but no
+I have to brush over a lot of things and I'm going to be pretty and for all I recommend
+functions are input output machines the
+input set of numbers and output a corresponding set of numbers and the function
+the particular problem
+is when we don't know the definition of the function that were trying to approximate
+from that function inputs and outputs
+we must approximate a function that fits these data points
+given inputs that are not in our data set
+this process is also called curve fitting and you can see why and this is
+some hand crafted animation it is an actual neural network attempting to fit the
+bending the line into shape this
+to any data set
+any function this makes it a Universal function approximator
+the network itself is also a function and should app
+some unknown target function the particular normal architecture were dealing with
+video is called a fully connected feed forward network its inputs and output
+and predictions and they take the form of vectors a raise
+the overall function is made up of lots of simple functions called neurones
+take many inputs but only produce one output each input is
+Error: Could not transcribe audio
+we can put our inputs into
+Error: Could not transcribe audio
+to take the
+product we multiply each input by each weight and then add them all app
+finally the staff product is then passed to a very simple activation function in this case
+we could use a different activation function
+do you look like this the activation function defines the neurones mathematical shape
+we feed the original
+Error: Could not transcribe audio
+together into a vector and then feed
+as input to the next layer and the next and the next until we get the
+output of the network is responsible for learning its own
+we can
+nevermore in cricket function with an infinite number of neurones we can prove
+any function the values of the weights or parameter
+discovered through the training process we give the network inputs from a data set and as
+detect the correct output over and over and over the goal is to minimise
+difference between the protected output
+overtime the network should do better and better as
+the algorithm for this is called back propagation and I am again not
+algorithm
+however this is a baby problem what about functions with
+just one input or output that is to say higher dimensional problems
+the dimensionality of a vector is Defined by the number of numbers
+factor for a higher dimensional problem let's try to learn an image
+the input vector is the row column coordinates of a pixel and the output vector
+Error: Could not transcribe audio
+is all of the pixels in an image which use
+pixel value of zero is black and one is
+hello I am going to use different colour schemes because it's pretty as we train we
+approximation improves that's what you are saying now
+beginning of this video to clarify this image is not
+single output from the network rather every individual pixel is a single
+we are looking at the entire Function Hall at once and we can do this because
+you are also notice that the learning seems to slow
+this is because we period
+how much are training algorithm
+to progressively refined details
+now just because I don't know what should theoretically be able to learn any function
+there are things we can do to practically improve the approximation and optimise
+Error: Could not transcribe audio
+which means I am moving the values from a range of 0 1400 to the range of negative
+simple linear transformation that shifts and skills
+the negative 11 ranges easier for the network to do with because it's
+another trick is that I am not using a value
+activation function
+and has been shown to generally improve performance
+except for the last one
+the final output is a pixel value in needs to be between 0 and 1
+activation function which
+its inputs between 0 and 1 except there is a different
+function called 10 age this question is inputs between negative one and one
+into the final range of 01 why go through
+in
+back propagation but
+Error: Could not transcribe audio
+Universal function approximators but practically one works much better than
+this can be measured impurity by calculating a comparing the error rates of both
+I think of this is the science of math very much tester ideas
+evidence rather than providing formal proofs APK 2
+but that is not always possible and it is often much easier to just try and see what happens
+let's make it harder
+takes two inputs UV and produces three outputs x y z
+and will use the equation for a sphere we can learn at
+Error: Could not transcribe audio
+the
+Error: Could not transcribe audio
+I hope this also gives you a better view of what a parametric surface is it takes a
+Error: Could not transcribe audio
+this is ok but never quite closes up around the poles
+surface
+I got the equation for this from this wonderful little website but you play with all kinds of social services
+should I mean when I say that functions described the world anyway what sample
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+well it's working but
+we're having some trouble here I am using a very network but this is a
+shape and it seems to be getting a little bit confused who come back to this one
+we can also make the problem harder not by increasing dimension
+papa increasing the complexity of the function itself let's use the
+an infinitely Complex fracture we can simply define
+function is taking two real valued inputs and producing one output the
+Error: Could not transcribe audio
+anything
+operating on complex numbers
+I'm not going to explain
+doesn't know the function definition either and it should
+it should be able to approximate it all the same the data set here is rand
+Error: Could not transcribe audio
+videos trying this exact experiment over the years
+function is
+infinitely Complex literally made with complex numbers and is uniquely difficult
+you can just keep feeding and feeding and feeding the function and you
+you can do this with any practical I just use the mind of WhatsApp
+so after training for while we
+missing an infinite amount of detail
+there are better ways of doing
+are the different methods for approximating function
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+this is an infinite song of a
+polynomial functions X + x square + x cube + X ^
+up to x to the end n is the order of the series
+each of these terms are multiplied by their own value called a coefficient
+each Coefficient controls how much that individual term affect the overall function
+given some target function by choosing the right coefficients
+approximate that target function around a specific point in this case zero
+the approximation gets better the more terms we add where an infinite sum of term
+exactly equivalent to the target function if we know
+function we can actually derive the exact coefficients using a general formula
+each Coefficient for each term but of course in our particular problem
+don't know the function we only have a sample of data points so how do we find the coefficient
+well do you see anything familiar in this way did some of terms
+we can put all of the eggs to the n terms into an input factor and put
+and then take the dot product a weighted
+the Taylor series is effectively a single layer neural network
+one where we compute a bunch of additional inputs x squared x cube and so on
+what all these additional input Taylor features we can then learn
+of course we can only compute a
+Error: Could not transcribe audio
+let's use the simple tailor network to learn this function using
+approximation
+Error: Could not transcribe audio
+it's not great touchy as the values can EXP
+I think back propagation as a tough time finding the right coefficients
+we can do better rather than using a single layer that work but just give these
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+it's about walking but this performs much better this trick of comput
+additional features to feed to the network is a well known and commonly used one
+different kinds of mathematical building blocks to building
+let's try this on an image
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+wow that's pretty good it's learning but it doesn't seem to work any better than just using
+the Taylor series is made to approximate a function
+single given point where we want to approximate within a given range
+a better tour for this is the for a series
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+again controlling how much that term affects the overall function
+and this inner multiplier values control the frequency of
+Error: Could not transcribe audio
+combining waited waves of different frequencies we can approximate a function
+if we know the
+we can compute the weights and even if we don't we could use something called the discrete
+Error: Could not transcribe audio
+it's just jump ahead and do what we did before compute
+symptoms of the fourier series and feed them to a motile layer network as a
+48 features know that we have twice as many
+features AS Tailor features we have a signed and cosine
+turn on the status at this works
+we need to
+inputs between negative point and positive point 14 per unit
+coming into
+Error: Could not transcribe audio
+much
+Error: Could not transcribe audio
+you can help me tell the difference from the real image
+now I am going to wear a very
+I gave had one input
+this function has two inputs to handle this properly we have
+the two dimensional formula series one takes an input of x
+what we do with the extra why here are the terms for the
+multiplying the x
+sin x sin
+every combination of
+not only that we also have
+combination of frequencies that inner multiplier so sin 2x
+Error: Could not transcribe audio
+that is a lot of terms we have to calculate
+very quickly as we increase
+and this is just very baby
+2D input for a 3D 4D 5D input forget it the
+computations needed for higher dimensional fourier series explodes as we
+the dimensionality of our inputs we haven't countered The Curse of
+WhatsApp methods of function approximation and machine learning
+as dimensionality grows this method is my work well on low dimension
+problems but they become computationally in practical or impossible for
+enter the dimensionality
+Error: Could not transcribe audio
+but we don't need to use the 2D Fourier Series we can just treat each
+what is its own independent variable in computer 1D 48 features for each
+this is last periodically sound but much more practical to compute
+still a lot of additional features but it's manageable and it's worth it drastically
+using to get these image approximations
+should be surprising that 48 features help so much here since the fourier series and
+is used to compress images it's how the JPEG compression algorithm works
+what's the things can be represented as combinations of waves so
+again it looks a little weird but it is defin
+capturing more details in the previous attempt
+Error: Could not transcribe audio
+actually no this is not the Roman
+it is an approximation from our for a network
+Error: Could not transcribe audio
+256 orders of the Fourier Series which means of 1024
+Error: Could not transcribe audio
+when we release human it becomes very obvious that this is not the real
+rishto missing an infinite amount of detail
+Error: Could not transcribe audio
+nonetheless I am blown away by the quality of the fourier networks approximation
+48 features are of course not my idea they come from this paper that was
+still missing
+adding 48 features was one of if not the most effective improve
+to return
+Error: Could not transcribe audio
+Error: Could not transcribe audio
+so if 48 features
+why don't we use the more often they hardly ever show up in real
+to state the obvious all of the approximations in this video so
+fucking quickly useless we know the functions and the images we don't need a massive
+but I hope that you can see that were not studying
+for studying the methods of approximation because these two
+and hopefully gain insights that book
+into higher dimensional problems so let's bring it back to work with a
+this is the eminent status
+images of hand drawn numbers in the labels are input is
+output is a vector of 10 Valu
+in the image
+is some unknown function that describes the relationship between an image and its
+and that's what we trying to discover 28 by 28
+black and white images that is the 784 dimensional input that
+we must address
+cursive dimensionality or method must be able to handle huge dimensional
+we also can visualise the entire approximation all at once as
+any idea what is 700 dimensional space looks like but a
+we can evaluated by
+the accuracy with predictions on images from the data set that it did not see
+evaluation accuracy and a small network does pretty well
+what if we use for a features on this problem say up to eight orders
+what does do a little better but we are adding a lot of additional features for only
+computing a total of 13328 in
+784 and it's only 2% more ACC
+when we use 32 orders of the Fourier Series it actually seems to harm performance
+up to 64 orders this may be due
+Error: Could not transcribe audio
+but fails to learn the underlying function usually this is a product of not
+especially prone to this
+consistent with the conclusions of the paper I mentioned earlier and ultimately are for a network
+problems but not very good for high dimensional problem
+no single architecture modular method is the best fit for all tasks
+different approaches than the ones discussed here
+now I be surprised if the Fourier Series didn't have more to teachers about machine learning
+this video has helped you appreciate what function approximation is
+imagination with some alternative perspectives
+play that can be made into arbitrary shapes for
+I want to finish by opening up the metro
+Error: Could not transcribe audio
+approximate the members at given only a random sampling
+there are probably a million things that could be done to improve on my approximation
+is that your solution must still
+learn any other data set
+Error: Could not transcribe audio
+could have uses in the real world there is no reason to think that we found the
+you are doing this and there may be far better solutions waiting to be discovered
+thanks for watching
+Error: Could not transcribe audio
+Error: Could not transcribe audio
